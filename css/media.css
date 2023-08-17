@@ -1,0 +1,124 @@
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+	/*	header start*/
+	header {
+    padding: 0px;
+	}
+	.logo-img {
+    max-width: 90%;
+	}
+	.logo-text {
+    font-size: 22px;
+	}
+	.menu ul {
+    padding-top: 15px;
+	}
+	.menu ul li a {
+    margin-bottom: 10px;
+    padding: 0 10px !important;
+	}
+		/*	banner start*/
+	.banner{
+		padding-bottom: 60px;
+	}
+ 	.b_txt {
+    text-align: center;
+	}
+	.b_h {
+    padding: 0;
+    font-size: 30px;
+    line-height: 40px;
+    }
+    .b_p2 {
+    padding: 0;
+    line-height: 30px;
+	}
+	.b_img {
+    margin-bottom: 20px;
+    padding: 0;
+ 	}
+ 	.b_link {
+    margin: 15px auto 0;
+	}
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {	
+/*	header start*/
+	header {
+    padding: 5px 0;
+	}
+	.logo-text {
+    font-size: 22px;
+	}
+	.menu ul {
+    padding-top: 15px;
+	}
+	.menu ul li a {
+    margin-bottom: 10px;
+    padding: 0 15px !important;
+	}
+	/*	banner start*/
+ 	.b_txt {
+    text-align: center;
+	}
+	.b_h {
+    padding: 0 40px 0;
+    font-size: 35px;
+    line-height: 50px;
+    }
+    .b_p2 {
+    padding: 0 30px 0;
+    line-height: 30px;
+	}
+	.b_img {
+    margin-bottom: 30px;
+    padding: 0 50px;
+ 	}
+ 	.b_link {
+    margin: 15px auto 0;
+	}
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+/*	header start*/
+	.menu ul li a {
+    margin-bottom: 10px;
+    padding: 0 15px !important;
+	}
+/*	banner start*/
+ 	.b_txt {
+    text-align: center;
+	}
+	.b_h {
+    padding: 0 81px 0;
+    }
+    .b_p2 {
+    padding: 0 100px 0;
+	}
+	.b_img {
+    margin-bottom: 30px;
+    padding: 0 100px;
+ 	}
+ 	.b_link {
+    margin: 15px auto 0;
+	}
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {...}
+
+/*Extra Large devices (desktops, 1200 and up)*/
+@media (min-width: 1200px) and (max-width: 1399.98px) {...}
+
+/*Extra Extra large devices (large desktops, 1400px and up)*/
+@media (min-width: 1400px) {
+/*	banner start*/
+	.b_h {
+    padding: 0 97px 0 0;
+ 	}
+ 	.b_p2 {
+    padding: 0px 117px 0 0;
+	}
+}
